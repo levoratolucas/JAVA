@@ -1,3 +1,4 @@
+//Exe2.java
 // 2. Escreva um algoritmo que leia dois números digitados pelo usuário e exiba oresultado da sua soma
 
 public class Exe2 {
