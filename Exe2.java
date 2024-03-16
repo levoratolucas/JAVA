@@ -1,6 +1,6 @@
 // 2. Escreva um algoritmo que leia dois números digitados pelo usuário e exiba oresultado da sua soma
 
-public class Exe02 {
+public class Exe2 {
     public static void executar(){
 
         int[] num = new int[2];

@@ -1,7 +1,7 @@
 // 3. Escreva um algoritmo que leia os valores de dois números inteiros distintos nasvariáveis
 //  A e B e informe qual deles é o maior. Caso os números sejam iguais informarao usuário que a sequência de números informados é inválida.
 
-public class Exe03 {
+public class Exe3 {
     public static void executar() {        
         Tools.println("DIGITE UM NUMERO INTEIRO");
         int a = Tools.scanfInt();

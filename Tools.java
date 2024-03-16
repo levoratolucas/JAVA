@@ -10,6 +10,10 @@ public class Tools {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }
+    public static String scanfStr() {
+        Scanner scanner = new Scanner(System.in);
+        return scanner.next();
+    }
 
     public static void printInt(int msg){
         System.out.println(msg);

@@ -3,7 +3,7 @@
 // maior, ou “Númeromenor ou igual a 10!”, caso este número seja menor ou igual.
 
 
-public class Exe01 {
+public class Exe1 {
     public static void executar(){
         
         int num ;
