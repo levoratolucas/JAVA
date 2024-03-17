@@ -10,8 +10,17 @@ public class Exe4 {
             nums[i]= Tools.scanffloat();            
             Tools.println("este é "+ nums[i]);   
             soma += nums[i];        
-        } 
+            subtracao = (nums[i]*-1) - subtracao ;
+            multiplicacao *= nums[i];  
+            }
+            for (int i = 1; i < cont; i++ ) {
+                nums[i] = nums[i-1]/nums[i];
+                divisao = nums[i];
+            }
         Tools.printFormat("soma é %.2f%n", soma);
+        Tools.printFormat("subtracao é %.2f%n", subtracao);
+        Tools.printFormat("multiplicacao é %.2f%n", multiplicacao);
+        Tools.printFormat("divisao é %.2f%n", divisao);
         
     }
 }
