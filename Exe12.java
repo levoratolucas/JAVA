@@ -4,9 +4,10 @@
 
 public class Exe12 {
    public static void executar(){
+    Tools.println("12.  Escreva  um  algoritmo  que  receba  o  número  do  mês  e  mostre  o  mês correspondente. Valide mês inválido");
     int num =Tools.scanfInt();
     String msg;
-
+    Tools.println("digite um numero inteiro entre 1 e 12");
     switch (num) {
         case 1:
         msg ="janeiro";
