@@ -9,14 +9,15 @@
 
 public class Exe17 {
     public static void executar(){
-        float[] notas = new float[3];
+        int cont = 3;
+        float[] notas = new float[cont],pesos = new float[cont];
         float media = 0; 
-        for(int i = 0;i<3;i++){
-            Tools.println("Digite a nota " + (i+1));
+        for(int i = 0;i<cont;i++){
+            Tools.println("Digite a nota " + (i+1) + " e seu peso");
             notas[i]=Tools.scanffloat();
-            media += notas[i];
-        
+            pesos[i]=Tools.scanffloat()/10;
+            media += notas[i]*pesos[i];
         }
-        Tools.printFormat("A media foi: %.2f", (media / 3));
+        Tools.printFormat("A media foi: %.2f\n", (media));
     }
 }
