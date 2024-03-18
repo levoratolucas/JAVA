@@ -4,14 +4,15 @@
 
 public class Exe16 {
     public static void executar(){
-        float[] notas = new float[3];
+        int cont = 3;
+        float[] notas = new float[cont];
         float media = 0; 
-        for(int i = 0;i<3;i++){
+        for(int i = 0;i<cont;i++){
             Tools.println("Digite a nota " + (i+1));
             notas[i]=Tools.scanffloat();
-            media += notas[i];
+            media += notas[i]/cont;
         }
-        Tools.printFormat("A media foi: %.2f", (media / 3));
+        Tools.printFormat("A media foi: %.2f\n", (media));
     }
     
 }
